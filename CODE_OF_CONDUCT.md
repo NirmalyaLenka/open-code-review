@@ -26,7 +26,6 @@ Report incidents via [GitHub Issues](https://github.com/alibaba/open-code-review
 or [GitHub Discussions](https://github.com/alibaba/open-code-review/discussions).
 Include as much detail as possible (what happened, when/where, links, screenshots
 if applicable).
-
 ## Enforcement
 
 Maintainers will investigate in good faith and may take appropriate action,
