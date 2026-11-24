@@ -117,7 +117,7 @@ npm install -g @alibaba-group/open-code-review
 
 その他のインストール方法（インストールスクリプト、GitHub Release バイナリ、ソースビルド）については、[インストールガイド](https://open-codereview.ai/docs/installation)を参照してください。
 
-> **初回実行時の安全確認：** `npm install -g @alibaba-group/open-code-review` はパッケージの `postinstall` スクリプトを実行し、GitHub Releases から OS・アーキテクチャに合った `ocr` バイナリをダウンロードして、インストール前に公開されている `sha256sum.txt` と照合します。インストール前に [`scripts/install.js`](../../scripts/install.js) と[インストールガイド](https://open-codereview.ai/docs/installation)を確認してください。単独の shell／PowerShell インストーラーはインストール先へバイナリを書き込み、昇格した権限を必要とする場合があります。実行前にスクリプトを確認し、非公式ミラーを避け、信頼できない環境や重要な端末でリモートスクリプトをそのまま shell にパイプして実行しないでください。
+> **初回実行時の安全確認：** `npm install -g @alibaba-group/open-code-review` はパッケージの `postinstall` スクリプトを実行します。プラットフォーム用パッケージにバイナリが含まれていない場合、GitHub Releases から対応する `ocr` バイナリをダウンロードし、公開されている `sha256sum.txt` と照合します。インストール前に [`scripts/install.js`](../../scripts/install.js) と[インストールガイド](https://open-codereview.ai/docs/installation)を確認してください。単独の shell／PowerShell インストーラーはインストール先へバイナリを書き込み、昇格した権限を必要とする場合があります。実行前にスクリプトを確認し、非公式ミラーを避け、信頼できない環境や重要な端末でリモートスクリプトをそのまま shell にパイプして実行しないでください。
 
 #### クイックスタート
 
