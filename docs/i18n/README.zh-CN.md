@@ -117,7 +117,7 @@ npm install -g @alibaba-group/open-code-review
 
 其他安装方式（安装脚本、GitHub Release 二进制、源码构建），详见[安装指南](https://open-codereview.ai/docs/installation)。
 
-> **首次运行安全提示：** `npm install -g @alibaba-group/open-code-review` 会运行包的 `postinstall` 脚本，从 GitHub Releases 下载平台对应的 `ocr` 二进制文件，并在安装前使用发布的 `sha256sum.txt` 校验。安装前请查看 [`scripts/install.js`](../../scripts/install.js) 和[安装指南](https://open-codereview.ai/docs/installation)。独立的 shell/PowerShell 安装脚本会将二进制文件写入安装目录，可能需要提升权限；请先检查脚本，避免使用非官方镜像，也不要在不可信或重要设备上直接把远程脚本通过管道交给 shell 执行。
+> **首次运行安全提示：** `npm install -g @alibaba-group/open-code-review` 会运行包的 `postinstall` 脚本。若平台专用包未提供二进制文件，脚本会从 GitHub Releases 下载匹配的 `ocr` 二进制文件，并与发布的 `sha256sum.txt` 校验。安装前请查看 [`scripts/install.js`](../../scripts/install.js) 和[安装指南](https://open-codereview.ai/docs/installation)。独立的 shell/PowerShell 安装脚本会将二进制文件写入安装目录，可能需要提升权限；请先检查脚本，避免使用非官方镜像，也不要在不可信或重要设备上直接把远程脚本通过管道交给 shell 执行。
 
 #### 快速开始
 
