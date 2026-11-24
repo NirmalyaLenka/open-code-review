@@ -117,7 +117,7 @@ npm install -g @alibaba-group/open-code-review
 
 기타 설치 방법(설치 스크립트, GitHub Release binary, 소스 빌드)은 [설치 가이드](https://open-codereview.ai/docs/installation)를 참조하세요.
 
-> **안전한 첫 실행:** `npm install -g @alibaba-group/open-code-review`는 패키지의 `postinstall` 스크립트를 실행해 GitHub Releases에서 플랫폼에 맞는 `ocr` 바이너리를 다운로드하고, 설치 전에 공개된 `sha256sum.txt`와 대조합니다. 설치 전 [`scripts/install.js`](../../scripts/install.js)와 [설치 가이드](https://open-codereview.ai/docs/installation)를 검토하세요. 별도의 shell/PowerShell 설치 스크립트는 설치 디렉터리에 바이너리를 기록하며 권한 상승이 필요할 수 있습니다. 실행 전에 스크립트를 확인하고 비공식 미러를 피하며, 신뢰할 수 없거나 중요한 시스템에서 원격 스크립트를 shell 파이프로 바로 실행하지 마세요.
+> **안전한 첫 실행:** `npm install -g @alibaba-group/open-code-review`는 패키지의 `postinstall` 스크립트를 실행합니다. 플랫폼 패키지에 바이너리가 없을 때는 GitHub Releases에서 해당 플랫폼용 `ocr` 바이너리를 다운로드하고 공개된 `sha256sum.txt`와 대조합니다. 설치 전에 [`scripts/install.js`](../../scripts/install.js)와 [설치 가이드](https://open-codereview.ai/docs/installation)를 검토하세요. 별도의 shell/PowerShell 설치 스크립트는 설치 디렉터리에 바이너리를 기록하며 권한 상승이 필요할 수 있습니다. 실행 전에 스크립트를 확인하고 비공식 미러를 피하며, 신뢰할 수 없거나 중요한 시스템에서 원격 스크립트를 shell 파이프로 바로 실행하지 마세요.
 
 #### Quick Start
 
