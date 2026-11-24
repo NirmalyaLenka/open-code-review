@@ -117,7 +117,7 @@ After installation, the `ocr` command is available globally.
 
 For other installation methods (install script, GitHub Release binary, from source), see [Installation](https://open-codereview.ai/docs/installation).
 
-> **Safe first run:** `npm install -g @alibaba-group/open-code-review` runs the package's `postinstall` script, which downloads the platform-specific `ocr` binary and verifies it against the release `sha256sum.txt` before installation. Review [`scripts/install.js`](scripts/install.js) and the [installation guide](https://open-codereview.ai/docs/installation) before installing. The standalone shell and PowerShell installers write a binary into an install directory and may need elevated permissions; inspect them first, avoid unofficial mirrors, and do not pipe remote scripts directly into a shell on a machine you cannot afford to modify.
+> **Safe first run:** `npm install -g @alibaba-group/open-code-review` runs the package's `postinstall` script. It uses a platform package's binary when available; otherwise it downloads the matching `ocr` binary from GitHub Releases and checks it against the release `sha256sum.txt`. Review [`scripts/install.js`](scripts/install.js) and the [installation guide](https://open-codereview.ai/docs/installation) before installing. The standalone shell and PowerShell installers write a binary into an install directory and may need elevated permissions; inspect them first, avoid unofficial mirrors, and do not pipe remote scripts directly into a shell on a machine you cannot afford to modify.
 
 #### Quick Start
 
